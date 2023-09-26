@@ -39,3 +39,7 @@ Para iniciar um container Ubuntu e executar um terminal interativo:
 ```bash
     docker run -it ubuntu
 ```
+
+### getting-started-app
+
+PS: Não compreendo a razão de no github nao aparecer o que tenho no folder getting-started-app

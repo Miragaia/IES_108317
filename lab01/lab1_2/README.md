@@ -43,5 +43,7 @@ Aqui está um exemplo simples de um arquivo `pom.xml` que define o ciclo de vida
 ## Exemplo para correr o projeto
     
     ```bash
-        mvn exec:java -Dexec.args="1160900"
+        1º: mvn package
+
+        2º: java -cp .\target\my_weather_radar-1.0-SNAPSHOT.jar com.ies.WeatherStarter 1160900  
     ```

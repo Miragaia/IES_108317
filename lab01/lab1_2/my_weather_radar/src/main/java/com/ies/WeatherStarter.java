@@ -4,6 +4,8 @@ import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import com.ies.IpmaCityForecast;
+import com.ies.IpmaService;
 
 /**
  * demonstrates the use of the IPMA API for weather forecast
@@ -16,7 +18,7 @@ public class WeatherStarter {
     public static void  main(String[] args ) {
 
         if (args.length != 1) {
-            System.out.println("Modo de uso: WeatherStarter <city_code>");
+            System.out.println("Erro na passagem de argumentos. Modo de uso: WeatherStarter <city_code>");
             return;
         }
 
@@ -41,13 +43,13 @@ public class WeatherStarter {
                 CityForecast firstDay = forecast.getData().get(0); // Get the first day's forecast
 
                 System.out.println("Weather forecast for City Code: " + cityCode);
-                System.out.println("Date: " + firstDay.getForecastDate());
-                System.out.println("Max Temperature: " + firstDay.getTMax() + "°C");
-                System.out.println("Min Temperature: " + firstDay.getTMin() + "°C");
-                System.out.println("Precipitation Probability: " + firstDay.getPrecipitaProb() + "%");
-                System.out.println("Wind Speed: " + firstDay.getClassWindSpeed() + " km/h");
+                System.out.println("Data: " + firstDay.getForecastDate());
+                System.out.println("Temperatura Máxima: " + firstDay.getTMax() + "°C");
+                System.out.println("Temperatura Mínima: " + firstDay.getTMin() + "°C");
+                System.out.println("Probabilidade de Percipitação: " + firstDay.getPrecipitaProb() + "%");
+                System.out.println("Velocidade do Vento: " + firstDay.getClassWindSpeed() + " km/h");
             } else {
-                System.out.println("No results for this city code!");
+                System.out.println("Sem resultados para este city code!");
             }
         } catch (Exception ex) {
             ex.printStackTrace();

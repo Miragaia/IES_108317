@@ -8,6 +8,12 @@ import com.google.gson.annotations.SerializedName;
  */
 public class CityForecast {
 
+    @SerializedName("globalIdLocal")
+    @Expose
+    private String globalIdLocal;
+    @SerializedName("local")
+    @Expose
+    private String local;
     @SerializedName("precipitaProb")
     @Expose
     private String precipitaProb;
@@ -106,5 +112,13 @@ public class CityForecast {
 
     public void setLatitude(String latitude) {
         this.latitude = latitude;
+    }
+
+    public String getglobalIdLocal() {
+        return globalIdLocal;
+    }
+
+    public String getLocal() {
+        return local;
     }
 }

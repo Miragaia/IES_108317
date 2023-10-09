@@ -11,9 +11,8 @@ public class GreetingController {
 
 	@GetMapping("/api/greeting")
 	public Greeting greeting(
-		@RequestParam(name="name", required=false, defaultValue="World") String name, 
-		@RequestParam(name = "customMessage", required = false, defaultValue = "Hello,") String customMessage) {
-		String message = customMessage + ", " + name;
+		@RequestParam(name="name", required=false, defaultValue="World") String name) {
+		String message = "Hi, " + name;
 		return new Greeting(message);
 	}
 

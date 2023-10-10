@@ -33,7 +33,7 @@
 
 ## RESUMO
 
-- Este exercício é um exemplo de como criar uma API REST com Jakarta EE para fornecer recursos como citações de filmes e programas de TV. Pode ser usado como base para construir um serviço mais complexo com Jakarta EE, adequado para uma variedade de cenários.
+- Este exercício é um exemplo de como criar uma API REST com Jakarta EE para fornecer recursos como citações de filmes e programas de TV. Pode ser usado como base para construir um serviço mais complexo com Jakarta EE, adequado para uma variedade de cenários. 
 
 
 

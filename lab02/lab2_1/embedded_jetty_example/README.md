@@ -15,7 +15,7 @@
 ### Classe HelloServlet
  - Classe interna que estende HttpServlet, que é uma classe base para servlets Java.
  - Implementa a lógica para responder a solicitações HTTP GET.
- - Lê um parâmetro "msg" da solicitação e exibe-o em um cabeçalho <h1> se presente, caso contrário, exibe "New Hello Simple Servlet".
+ - Lê um parâmetro "msg" da solicitação e exibe-o em um cabeçalho se presente, caso contrário, exibe "New Hello Simple Servlet".
 
 ### Resumo
  - Este código Java cria uma aplicação simples usando o servidor Jetty para manipular solicitações HTTP. A classe EmbeddedJettyExample configura o servidor e mapeia o servlet HelloServlet, que responde a solicitações HTTP GET exibindo uma mensagem HTML com base em um parâmetro de consulta "msg" ou exibindo uma mensagem padrão se o parâmetro estiver ausente. O servidor escuta na porta 8680.

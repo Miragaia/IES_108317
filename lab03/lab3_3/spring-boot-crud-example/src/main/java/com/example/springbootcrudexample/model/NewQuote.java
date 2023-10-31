@@ -1,4 +1,4 @@
-package main.java.com.example.springbootcrudexample.model;
+package com.example.springbootcrudexample.model;
 
 public class NewQuote {
     

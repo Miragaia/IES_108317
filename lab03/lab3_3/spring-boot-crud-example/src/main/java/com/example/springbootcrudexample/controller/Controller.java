@@ -1,10 +1,10 @@
-package main.java.com.example.springbootcrudexample.controller;
+package com.example.springbootcrudexample.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import  main.java.com.example.springbootcrudexample.model.*;
-import  main.java.com.example.springbootcrudexample.service.*;
+import  com.example.springbootcrudexample.model.*;
+import  com.example.springbootcrudexample.service.*;
 
 import java.util.List;
 

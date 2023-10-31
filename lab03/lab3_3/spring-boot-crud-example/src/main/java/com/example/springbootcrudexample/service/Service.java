@@ -1,4 +1,4 @@
-package main.java.com.example.springbootcrudexample.service;
+package com.example.springbootcrudexample.service;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import main.java.com.example.springbootcrudexample.repository.*;
-import main.java.com.example.springbootcrudexample.model.*;
+import com.example.springbootcrudexample.repository.*;
+import com.example.springbootcrudexample.model.*;
 
 @Service
 public class Service {

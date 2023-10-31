@@ -1,4 +1,4 @@
-package main.java.com.example.springbootcrudexample.exception;
+package com.example.springbootcrudexample.exception;
 
 import java.util.Date;
 

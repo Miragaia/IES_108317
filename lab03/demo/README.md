@@ -1,4 +1,6 @@
-# Spring Boot CRUD Application with Thymeleaf
+# LAB3_1
+
+## Spring Boot CRUD Application with Thymeleaf
 
 Este projeto é um exemplo de uma aplicação Spring Boot que demonstra a realização de operações CRUD (Criar, Ler, Atualizar, Eliminar) em uma entidade "User" usando o Spring Data JPA, Thymeleaf, e validação de dados.
 
